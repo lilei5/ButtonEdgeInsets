@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A48EF72F1E680B0E00EFBB7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A48EF72E1E680B0E00EFBB7C /* main.m */; };
+		A48EF7321E680B0E00EFBB7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A48EF7311E680B0E00EFBB7C /* AppDelegate.m */; };
+		A48EF7351E680B0E00EFBB7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48EF7341E680B0E00EFBB7C /* ViewController.m */; };
+		A48EF7381E680B0E00EFBB7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48EF7361E680B0E00EFBB7C /* Main.storyboard */; };
+		A48EF73A1E680B0E00EFBB7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A48EF7391E680B0E00EFBB7C /* Assets.xcassets */; };
+		A48EF73D1E680B0E00EFBB7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48EF73B1E680B0E00EFBB7C /* LaunchScreen.storyboard */; };
+		A48EF7451E680C1100EFBB7C /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A48EF7441E680C1100EFBB7C /* logo@2x.png */; };
+		A48EF7481E6826C200EFBB7C /* UIButton+EdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = A48EF7471E6826C200EFBB7C /* UIButton+EdgeInsets.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A48EF72A1E680B0E00EFBB7C /* ButtonEdgeInsets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonEdgeInsets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A48EF72E1E680B0E00EFBB7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A48EF7301E680B0E00EFBB7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A48EF7311E680B0E00EFBB7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A48EF7331E680B0E00EFBB7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A48EF7341E680B0E00EFBB7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A48EF7371E680B0E00EFBB7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A48EF7391E680B0E00EFBB7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A48EF73C1E680B0E00EFBB7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A48EF73E1E680B0E00EFBB7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A48EF7441E680C1100EFBB7C /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		A48EF7461E6826C200EFBB7C /* UIButton+EdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EdgeInsets.h"; sourceTree = "<group>"; };
+		A48EF7471E6826C200EFBB7C /* UIButton+EdgeInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EdgeInsets.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A48EF7271E680B0E00EFBB7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A48EF7211E680B0E00EFBB7C = {
+			isa = PBXGroup;
+			children = (
+				A48EF72C1E680B0E00EFBB7C /* ButtonEdgeInsets */,
+				A48EF72B1E680B0E00EFBB7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A48EF72B1E680B0E00EFBB7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A48EF72A1E680B0E00EFBB7C /* ButtonEdgeInsets.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A48EF72C1E680B0E00EFBB7C /* ButtonEdgeInsets */ = {
+			isa = PBXGroup;
+			children = (
+				A48EF7301E680B0E00EFBB7C /* AppDelegate.h */,
+				A48EF7311E680B0E00EFBB7C /* AppDelegate.m */,
+				A48EF7331E680B0E00EFBB7C /* ViewController.h */,
+				A48EF7341E680B0E00EFBB7C /* ViewController.m */,
+				A48EF7361E680B0E00EFBB7C /* Main.storyboard */,
+				A48EF7441E680C1100EFBB7C /* logo@2x.png */,
+				A48EF7391E680B0E00EFBB7C /* Assets.xcassets */,
+				A48EF73B1E680B0E00EFBB7C /* LaunchScreen.storyboard */,
+				A48EF73E1E680B0E00EFBB7C /* Info.plist */,
+				A48EF72D1E680B0E00EFBB7C /* Supporting Files */,
+				A48EF7461E6826C200EFBB7C /* UIButton+EdgeInsets.h */,
+				A48EF7471E6826C200EFBB7C /* UIButton+EdgeInsets.m */,
+			);
+			path = ButtonEdgeInsets;
+			sourceTree = "<group>";
+		};
+		A48EF72D1E680B0E00EFBB7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A48EF72E1E680B0E00EFBB7C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A48EF7291E680B0E00EFBB7C /* ButtonEdgeInsets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A48EF7411E680B0E00EFBB7C /* Build configuration list for PBXNativeTarget "ButtonEdgeInsets" */;
+			buildPhases = (
+				A48EF7261E680B0E00EFBB7C /* Sources */,
+				A48EF7271E680B0E00EFBB7C /* Frameworks */,
+				A48EF7281E680B0E00EFBB7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonEdgeInsets;
+			productName = ButtonEdgeInsets;
+			productReference = A48EF72A1E680B0E00EFBB7C /* ButtonEdgeInsets.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A48EF7221E680B0E00EFBB7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = lilei;
+				TargetAttributes = {
+					A48EF7291E680B0E00EFBB7C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4E9YB2PQ89;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A48EF7251E680B0E00EFBB7C /* Build configuration list for PBXProject "ButtonEdgeInsets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A48EF7211E680B0E00EFBB7C;
+			productRefGroup = A48EF72B1E680B0E00EFBB7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A48EF7291E680B0E00EFBB7C /* ButtonEdgeInsets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A48EF7281E680B0E00EFBB7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48EF73D1E680B0E00EFBB7C /* LaunchScreen.storyboard in Resources */,
+				A48EF7451E680C1100EFBB7C /* logo@2x.png in Resources */,
+				A48EF73A1E680B0E00EFBB7C /* Assets.xcassets in Resources */,
+				A48EF7381E680B0E00EFBB7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A48EF7261E680B0E00EFBB7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48EF7481E6826C200EFBB7C /* UIButton+EdgeInsets.m in Sources */,
+				A48EF7351E680B0E00EFBB7C /* ViewController.m in Sources */,
+				A48EF7321E680B0E00EFBB7C /* AppDelegate.m in Sources */,
+				A48EF72F1E680B0E00EFBB7C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A48EF7361E680B0E00EFBB7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A48EF7371E680B0E00EFBB7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A48EF73B1E680B0E00EFBB7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A48EF73C1E680B0E00EFBB7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A48EF73F1E680B0E00EFBB7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A48EF7401E680B0E00EFBB7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A48EF7421E680B0E00EFBB7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4E9YB2PQ89;
+				INFOPLIST_FILE = ButtonEdgeInsets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lilei.www.ButtonEdgeInsets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A48EF7431E680B0E00EFBB7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4E9YB2PQ89;
+				INFOPLIST_FILE = ButtonEdgeInsets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lilei.www.ButtonEdgeInsets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A48EF7251E680B0E00EFBB7C /* Build configuration list for PBXProject "ButtonEdgeInsets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A48EF73F1E680B0E00EFBB7C /* Debug */,
+				A48EF7401E680B0E00EFBB7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A48EF7411E680B0E00EFBB7C /* Build configuration list for PBXNativeTarget "ButtonEdgeInsets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A48EF7421E680B0E00EFBB7C /* Debug */,
+				A48EF7431E680B0E00EFBB7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A48EF7221E680B0E00EFBB7C /* Project object */;
+}
